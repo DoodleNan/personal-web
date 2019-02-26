@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+li {
+    display:inline;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+li a:hover {
+  color: teal;
+}
+</style>
+</head>
+
+<body class="w3-light-grey">
+  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-large"
+    onclick="w3_close()">&#9776;</button>
+    <ul>
+      <li>
+        <a class="active" href="index.html" class="w3-bar-item w3-button">Home</a>
+      </li>
+      <li>
+        <a class="active" href="publication.html" class="w3-bar-item w3-button">Publication</a>
+      </li>
+      <li>
+        <a class="active" href="teaching.html" class="w3-bar-item w3-button">Teaching</a>
+      </li>
+      <li>
+        <a class="active" href="#" class="w3-bar-item w3-button">Talk</a>
+      </li>
+      <li>
+        <a class="active" href="#" class="w3-bar-item w3-button">Blog</a>
+      </li>
+      <li>
+        <a class="active" href="#" class="w3-bar-item w3-button">CV</a>
+      </li>
+    </ul>
+    
+    <div class="w3-container">
+      <p class="w3-large"><b><i class="fa fa-film fa-fw w3-margin-right w3-text-teal"></i>Mini Post</b></p>
+        <div class="w3-container">
+          <img src="images/profile.jpeg" style="width:100%" alt="Avatar">
+          <h6 class="w3-text-grey"><b>Ski with Nan</b></h6>
+          <p><h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Seattle</p>
+          <p><h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 20 2019</h6></p>
+        </div>
+
+        <div class="w3-container">
+          <img src="images/profile.jpeg" style="width:100%" alt="Avatar">
+          <h6 class="w3-text-grey"><b>Ski with Nan</b></h6>
+          <p><h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Seattle</p>
+          <p><h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 20 2019</h6></p>
+        </div>
+
+        <div class="w3-container">
+          <img src="images/profile.jpeg" style="width:100%" alt="Avatar">
+          <h6 class="w3-text-grey"><b>Ski with Nan</b></h6>
+          <p><h6 class="w3-text-teal"><i class="fa fa-map-marker fa-fw w3-margin-right"></i>Seattle</p>
+          <p><h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 20 2019</h6></p>
+        </div>
+    </div>
+  </div>
+
+  <div id="main">
+
+  <div class="w3-teal">
+    <div class="w3-display-container">
+      <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+      <div class="w3-display-bottomright w3-container w3-text-white">
+            <h2>Jingwei Tang</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <div class="w3-row-padding">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <a href="files/cv.pdf" download="files/cv.pdf">
+              <button class="w3-button w3-teal w3-padding-large w3-margin-top w3-margin-bottom">
+                <i class="fa fa-download w3-margin-right"></i>Download Resume
+              </button>
+          </a>
+
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-newspaper-o fa-lg fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>CV
+          </h2>
+
+          <div class="w3-container w3-margin-bottom"> 
+            <h4 class="w3-opacity"><b>Education</b></h4>
+            <div class="w3-container">
+              <table style="width:63%;border-collapse: separate;border-spacing: 1em">
+                <tbody><tr> <td style="width:160px;text-align: right">2019 – 2023</td>  <td><span class="w3-text-teal"><b>Ph.D</b></span>, Computer Science<br> ETH Zurich</td> </tr>
+                
+                <tr>  <td style="width:160px;text-align: right">2016 – 2018</td>  <td><span class="w3-text-teal"><b>Master of Science</b></span>, Computational Science and Engineering<br>ETH Zurich</td></tr>
+                
+                <tr>  <td style="width:160px;text-align: right">2012 – 2016</td>  <td><span class="w3-text-teal"><b>Bachelor of Science</b></span>, Physics <br> Nanjing University</td> </tr>
+              </tbody></table> 
+            </div>
+            <hr> 
+          </div>
+
+
+          <div class="w3-container w3-margin-bottom"> 
+            <h4 class="w3-opacity"><b>Experience</b></h4>
+            <div class="w3-container">
+              <table style="width:63%;border-collapse: separate;border-spacing: 1em">
+                <tbody><tr> <td style="width:160px;text-align: right">2019 – 2023</td>  <td><span class="w3-text-teal"><b>Ph.D</b></span>, Computer Science<br> ETH Zurich</td> </tr>
+                
+                <tr>  <td style="width:160px;text-align: right">2016 – 2018</td>  <td><span class="w3-text-teal"><b>Master of Science</b></span>, Computational Science and Engineering<br>ETH Zurich</td></tr>
+                
+                <tr>  <td style="width:160px;text-align: right">2012 – 2016</td>  <td><span class="w3-text-teal"><b>Bachelor of Science</b></span>, Physics <br> Nanjing University</td> </tr>
+              </tbody></table> 
+            </div>
+            <hr> 
+          </div>
+
+
+          <div class="w3-container w3-margin-bottom"> 
+            <h4 class="w3-opacity"><b>Inveted Talks</b></h4>
+            <div class="w3-container">
+              <table style="width:63%;border-collapse: separate;border-spacing: 1em">
+                <tbody><tr> <td style="width:160px;text-align: right">2019 – 2023</td>  <td><span class="w3-text-teal"><b>Ph.D</b></span>, Computer Science<br> ETH Zurich</td> </tr>
+                
+                <tr>  <td style="width:160px;text-align: right">2016 – 2018</td>  <td><span class="w3-text-teal"><b>Master of Science</b></span>, Computational Science and Engineering<br>ETH Zurich</td></tr>
+                
+                <tr>  <td style="width:160px;text-align: right">2012 – 2016</td>  <td><span class="w3-text-teal"><b>Bachelor of Science</b></span>, Physics <br> Nanjing University</td> </tr>
+              </tbody></table> 
+            </div>
+            <hr> 
+          </div>
+      </div>
+    </div>
+  </div>
+  
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+function w3_open() {
+  document.getElementById("main").style.marginLeft = "15%";
+  document.getElementById("mySidebar").style.width = "15%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function w3_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
