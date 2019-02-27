@@ -13,7 +13,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </head>
 
 <body class="w3-light-grey">
-  <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+  <div class="w3-sidebar w3-bar-block w3-card" style="display:none" id="mySidebar">
     <button class="w3-bar-item w3-button w3-large"
     onclick="w3_close()">&#9776;</button>
     
@@ -23,9 +23,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       
         <a href="teaching.html" class="w3-bar-item w3-button">Teaching</a>
       
-        <a href="#" class="w3-bar-item w3-button">Talk</a>
-      
-        <a href="#" class="w3-bar-item w3-button">Blog</a>
+        <a href="talk.html" class="w3-bar-item w3-button">Talk</a>
       
         <a href="#" class="w3-bar-item w3-button">CV</a>
       
@@ -137,15 +135,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <script>
 function w3_open() {
-  document.getElementById("main").style.marginLeft = "15%";
-  document.getElementById("mySidebar").style.width = "15%";
+  // document.getElementById("main").style.marginLeft = "15%";
+  // document.getElementById("mySidebar").style.width = "15%";
   document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
+  // document.getElementById("openNav").style.display = 'none';
 }
 function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
+  // document.getElementById("main").style.marginLeft = "0%";
   document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
+  // document.getElementById("openNav").style.display = "inline-block";
 }
 </script>
 
